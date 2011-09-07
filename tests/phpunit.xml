@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./bootstrap.php"
+         colors="true"
+         syntaxCheck="true">
+    <testsuite name="Magento Shop">
+        <directory>./</directory>
+    </testsuite>
+    <php>
+        <ini name="memory_limit" value="1024M" />
+    </php>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">../app/code/local/N98</directory>
+            <!--<directory suffix=".php">../app/code/local/Dmg</directory>-->
+            <exclude>
+                <!-- Blacklist all magento setup scripts -->
+                <directory prefix="mysql4-" suffix=".php">../app/code/local/N98</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>

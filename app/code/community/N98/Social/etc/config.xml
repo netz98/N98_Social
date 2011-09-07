@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @category   N98
+ * @package    N98_Social
+ * @author     netz98 new media GmbH
+ */
+ -->
+
+<config>
+    <modules>
+        <N98_Social>
+            <version>0.0.1</version>
+        </N98_Social>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <n98social>
+                    <file>n98_social.xml</file>
+                </n98social>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <N98_Social>
+                    <files>
+                        <default>N98_Social.csv</default>
+                    </files>
+                </N98_Social>
+            </modules>
+        </translate>
+    </frontend>
+    <global>
+        <blocks>
+            <n98social>
+                <class>N98_Social_Block</class>
+            </n98social>
+        </blocks>
+    </global>
+</config>
