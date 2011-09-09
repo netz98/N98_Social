@@ -1,21 +1,9 @@
 <script type="text/javascript">
     jQuery(document).ready(function(){
         if(jQuery('#socialshareprivacy')){
-            jQuery('#socialshareprivacy').socialSharePrivacy({
-                services : {
-                    facebook : {
-                        'app_id'      : '0123456789',
-                        'perma_option': 'off',
-                        'dummy_img': '<?php echo $this->getSkinUrl('/images/dummy_facebook.png') ?>'
-                    },
-                    twitter : {
-                        'dummy_img': '<?php echo $this->getSkinUrl('/images/dummy_twitter.png') ?>'
-                    },
-                    gplus : {
-                        'dummy_img': '<?php echo $this->getSkinUrl('/images/dummy_gplus.png') ?>'
-                    }
-                }
-            });
+            jQuery('#socialshareprivacy').socialSharePrivacy(
+                <?php echo json_encode($this->getShareConfig()); ?>
+            );
         }
     });
 </script>

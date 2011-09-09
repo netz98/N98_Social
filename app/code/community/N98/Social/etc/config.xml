@@ -37,5 +37,44 @@
                 <class>N98_Social_Block</class>
             </n98social>
         </blocks>
+        <helpers>
+            <n98social>
+            	<class>N98_Social_Helper</class>
+            </n98social>
+        </helpers>
     </global>
+    <default>
+        <n98social>
+            <facebook>
+                <enabled>1</enabled>
+            </facebook>
+            <twitter>
+                <enabled>1</enabled>
+            </twitter>
+            <gplus>
+                <enabled>1</enabled>
+            </gplus>
+        </n98social>
+    </default>
+    <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <n98social>
+                                            <title>n98 Social Section</title>
+                                        </n98social>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
 </config>
