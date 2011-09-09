@@ -1,0 +1,9 @@
+This extention depends on
+
+http://www.magentocommerce.com/magento-connect/mxperts/extension/1619/mxperts--jquery-base
+
+Can be downloaded at 
+
+
+
+* You can create symlinks but then you have to switch on system > developer > template settings > allow symlinks

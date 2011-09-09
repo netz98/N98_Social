@@ -22,6 +22,15 @@
  */
 
 
-class N98_Social_Block_Buttons extends Mage_Core_Block_Abstract
+class N98_Social_Block_Buttons extends Mage_Core_Block_Template
 {
+
+    protected function _toHtml()
+    {
+        $headBlock = $this->getLayout()->getBlock('head');
+        $headBlock->addJs('jquery/jquery-1.6.3.min.js');
+        $content = parent::_toHtml();
+        return $content;
+
+    }
 }

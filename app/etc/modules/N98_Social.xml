@@ -12,6 +12,10 @@
         <N98_Social>
             <active>true</active>
             <codePool>community</codePool>
+             <depends>
+                <Mage_Page />
+                <N98_JQuery />
+            </depends>
         </N98_Social>
     </modules>
 </config>
