@@ -92,7 +92,7 @@ class N98_Social_Block_Buttons extends Mage_Core_Block_Template
             'css_path' => $this->getSkinUrl('/css/socialshareprivacy.css'),
             'txt_help' => $this->__("When you activate this buttons by clicking, data will be send to the Facebook, Twitter or Google located in the USA. Data also might be stored. For more information click <em>i</em>."),
             'settings_perma' => $this->__("Activate permanently and accept that data is been send"),
-
+            'info_link' => Mage::getStoreConfig('n98social/general/info_link'),
         );
         $config['services'] =
             array(

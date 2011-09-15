@@ -45,6 +45,23 @@ This software is provided by the netz98 new media GmbH without any express or im
             <show_in_website>1</show_in_website>
             <show_in_store>1</show_in_store>
             <groups>
+                <general translate="label">
+                    <label>General</label>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <info_link translate="label">
+                            <label>Link to more information</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </info_link>
+                    </fields>
+                </general>
                 <facebook translate="label">
                     <label>Facebook</label>
                     <sort_order>1</sort_order>
@@ -59,7 +76,7 @@ This software is provided by the netz98 new media GmbH without any express or im
                             <show_in_default>1</show_in_default>
                             <show_in_website>0</show_in_website>
                             <show_in_store>0</show_in_store>
-                            <comment>Must be registered at Facebook.</comment>
+                            <comment>Must be registered at Facebook. See README.txt</comment>
                         </app_id>
                         <enabled translate="label">
                             <label>Enabled</label>

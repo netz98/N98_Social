@@ -53,6 +53,17 @@ This software is provided by the netz98 new media GmbH without any express or im
             </modules>
         </translate>
     </frontend>
+    <adminhtml>
+        <translate>
+            <modules>
+                <N98_Social>
+                    <files>
+                        <default>N98_Social.csv</default>
+                    </files>
+                </N98_Social>
+            </modules>
+        </translate>
+    </adminhtml>
     <global>
         <blocks>
             <n98social>
@@ -67,6 +78,9 @@ This software is provided by the netz98 new media GmbH without any express or im
     </global>
     <default>
         <n98social>
+            <general>
+                <info_link>http://www.heise.de/ct/artikel/2-Klicks-fuer-mehr-Datenschutz-1333879.html</info_link>
+            </general>
             <facebook>
                 <enabled>1</enabled>
             </facebook>
