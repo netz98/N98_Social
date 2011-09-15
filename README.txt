@@ -1,7 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
+netz98 Social Magento module v 0.9.0
 
-Copyright (c) 2011.
+INSTALLATION
+
+Copy the module files to your magento folder and merge them with the existing folders.
+For using Facebook sharing you have to obtain a facebook app id, see below.
+
+
+CONFIGURATION
+
+The module can be configured at System -> Configuration -> N98 -> Social
+
+
+HOW TO OBTAIN THE FACEBOOK APP ID
+
+1. Login on facebook
+2. Verify your account using SMS or credit card on https://www.facebook.com/settings?tab=mobile
+3. Open the developers page http://developers.facebook.com/docs/reference/plugins/like/ and click below "Step 1"
+on "Get Code". Copy this app id to the Magento configuration.
+
+
+COMPATIBILITY
+
+This module has been tested with Magento Community Edition 1.6.0
+
+
+MORE INFORMATION
+
+This plugin is based on the JQuery plugin bei Heise.
+More information (German) can be found at
+http://www.heise.de/extras/socialshareprivacy/
+
+
+CHANGELOG
+
+15. Sep 2011 - 0.9.0 - Initial Version
+
+
+LICENSE
+
+Copyright © 2011.
 netz98 new media GmbH. Alle Rechte vorbehalten.
 
 Die Nutzung und Weiterverbreitung dieser Software in kompilierter oder nichtkompilierter Form, mit oder ohne Veränderung, ist unter den folgenden Bedingungen zulässig:
@@ -25,78 +62,11 @@ The use and redistribution of this software, either compiled or uncompiled, with
 4. License holders of the netz98 new media GmbH are only permitted to redistribute altered software, if this is licensed under conditions that contain a copyleft-clause.
 This software is provided by the netz98 new media GmbH without any express or implied warranties. netz98 is under no condition liable for the functional capability of this software for a certain purpose or the general usability. netz98 is under no condition liable for any direct or indirect damages resulting from the use of the software. Liability and Claims for damages of any kind are excluded.
 
-@category   N98
-@package    N98_Social
-@author     netz98 new media GmbH
--->
-<config>
-    <modules>
-        <N98_Social>
-            <version>0.9.0</version>
-        </N98_Social>
-    </modules>
-    <frontend>
-        <layout>
-            <updates>
-                <n98social>
-                    <file>n98/social.xml</file>
-                </n98social>
-            </updates>
-        </layout>
-        <translate>
-            <modules>
-                <N98_Social>
-                    <files>
-                        <default>N98_Social.csv</default>
-                    </files>
-                </N98_Social>
-            </modules>
-        </translate>
-    </frontend>
-    <global>
-        <blocks>
-            <n98social>
-                <class>N98_Social_Block</class>
-            </n98social>
-        </blocks>
-        <helpers>
-            <n98social>
-            	<class>N98_Social_Helper</class>
-            </n98social>
-        </helpers>
-    </global>
-    <default>
-        <n98social>
-            <facebook>
-                <enabled>1</enabled>
-            </facebook>
-            <twitter>
-                <enabled>1</enabled>
-            </twitter>
-            <gplus>
-                <enabled>1</enabled>
-            </gplus>
-        </n98social>
-    </default>
-    <adminhtml>
-        <acl>
-            <resources>
-                <admin>
-                    <children>
-                        <system>
-                            <children>
-                                <config>
-                                    <children>
-                                        <n98social>
-                                            <title>n98 Social Section</title>
-                                        </n98social>
-                                    </children>
-                                </config>
-                            </children>
-                        </system>
-                    </children>
-                </admin>
-            </resources>
-        </acl>
-    </adminhtml>
-</config>
+
+Parts of this software are
+
+Copyright (c) 2011 Hilko Holweg, Sebastian Hilbig, Nicolas Heiringhoff, Juergen Schmidt,
+Heise Zeitschriften Verlag GmbH & Co. KG, http://www.heise.de
+
+Released under the MIT License http://www.opensource.org/licenses/mit-license.php
+
