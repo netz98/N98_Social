@@ -6,9 +6,6 @@
         </reference>
     </default>
     <catalog_product_view>
-        <reference name="head">
-            <action method="addCss"><stylesheet>css/socialshareprivacy.css</stylesheet></action>
-        </reference>
         <reference name="content">
             <block type="n98social/buttons" name="n98social_buttons" template="n98/social/buttons.phtml" after="-" />
         </reference>

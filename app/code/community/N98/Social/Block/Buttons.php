@@ -95,6 +95,7 @@ class N98_Social_Block_Buttons extends Mage_Core_Block_Template
                 'twitter' => array('status' => 'off'),
                 'gplus' => array('status' => 'off')
             );
+        $config['css_path'] = $this->getSkinUrl('/css/socialshareprivacy.css');
 
         if (Mage::getStoreConfig('n98social/facebook/enabled')) {
             $config['services']['facebook'] = array(
