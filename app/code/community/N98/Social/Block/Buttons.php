@@ -88,14 +88,19 @@ class N98_Social_Block_Buttons extends Mage_Core_Block_Template
      */
     public function getShareConfig()
     {
-        $config = array();
+        $config = array(
+            'css_path' => $this->getSkinUrl('/css/socialshareprivacy.css'),
+            'txt_help' => $this->__("When you activate this buttons by clicking, data will be send to the Facebook, Twitter or Google located in the USA. Data also might be stored. For more information click <em>i</em>."),
+            'settings_perma' => $this->__("Activate permanently and accept that data is been send"),
+
+        );
         $config['services'] =
             array(
                 'facebook' => array('status' => 'off'),
                 'twitter' => array('status' => 'off'),
                 'gplus' => array('status' => 'off')
             );
-        $config['css_path'] = $this->getSkinUrl('/css/socialshareprivacy.css');
+
 
         if (Mage::getStoreConfig('n98social/facebook/enabled')) {
             $config['services']['facebook'] = array(
@@ -103,6 +108,9 @@ class N98_Social_Block_Buttons extends Mage_Core_Block_Template
                 'app_id' => $this->getFacebookAppId(),
                 'dummy_img' => $this->getSkinUrl('/images/'.$this->getFacebookImage()),
                 'language' => $this->getLocale(),
+                'txt_info' => $this->__("2 clicks to protect your privacy: Only when you click here, the button will be activated and you can send your recommendation to Facebook. When you activate the button, data will be send to Facebook. See also <em>i</em>."),
+                'txt_fb_off' => $this->__("not connected to Facebook"),
+                'txt_fb_on' => $this->__("connected to Facebook"),
             );
         }
         
@@ -110,6 +118,9 @@ class N98_Social_Block_Buttons extends Mage_Core_Block_Template
             $config['services']['twitter'] = array(
                 'status' => 'on',
                 'dummy_img' =>  $this->getSkinUrl('/images/dummy_twitter.png'),
+                'txt_info' => $this->__("2 clicks to protect your privacy: Only when you click here, the button will be activated and you can send your recommendation to Twitter. When you activate the button, data will be send to Twitter. See also <em>i</em>."),
+                'txt_twitter_off' => $this->__("not connected to Twitter"),
+                'txt_twitter_on' => $this->__("connected to Twitter"),
             );
         }
 
@@ -118,6 +129,9 @@ class N98_Social_Block_Buttons extends Mage_Core_Block_Template
                 'status' => 'on',
                 'dummy_img' =>  $this->getSkinUrl('/images/dummy_gplus.png'),
                 'language' => $this->getLanguage(),
+                'txt_info' => $this->__("2 clicks to protect your privacy: Only when you click here, the button will be activated and you can send your recommendation to Google+. When you activate the button, data will be send to Google. See also <em>i</em>."),
+                'txt_gplus_off' => $this->__("not connected to Google"),
+                'txt_gplus_on' => $this->__("connected to Google"),
             );
         }
 
