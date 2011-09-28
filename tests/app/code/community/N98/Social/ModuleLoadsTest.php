@@ -1,6 +1,6 @@
 <?php
 /**
- * netz98 XXXX magento module
+ * netz98 Social magento module
  *
  * LICENSE
  *
@@ -10,15 +10,8 @@
  *
  * @copyright Copyright (c) 2011 netz98 new media GmbH (http://www.netz98.de)
  * @author netz98 new media GmbH <info@netz98.de>
- * @category Netz98
- * @package Netz98_XXXX
- */
-
-/**
- * XXXX
- *
- * @category Netz98
- * @package Netz98_XXXX
+ * @category N98
+ * @package N98_Social
  */
 
 class N98_Social_ModuleLoadsTest extends PHPUnit_Framework_TestCase
