@@ -2,7 +2,7 @@
 <layoutUpdate>
     <default>
         <reference name="head">
-            <action method="addJs"><script>N98/jquery/jquery.socialshareprivacy.min.js</script></action>
+            <action method="addJs"><script>n98/jquery/jquery.socialshareprivacy.min.js</script></action>
         </reference>
     </default>
     <catalog_product_view>
