@@ -1,17 +1,21 @@
 netz98 Social Magento module v 0.9.0
+====================================
 
-INSTALLATION
+Installation
+------------
 
 Copy the module files to your magento folder and merge them with the existing folders.
 For using Facebook sharing you have to obtain a facebook app id, see below.
 
 
-CONFIGURATION
+Configuration
+-------------
 
 The module can be configured at System -> Configuration -> N98 -> Social
 
 
-HOW TO OBTAIN THE FACEBOOK APP ID
+How to obtain the Facebook App ID
+---------------------------------
 
 1. Login on facebook
 2. Verify your account using SMS or credit card on https://www.facebook.com/settings?tab=mobile
@@ -19,24 +23,28 @@ HOW TO OBTAIN THE FACEBOOK APP ID
 on "Get Code". Copy this app id to the Magento configuration.
 
 
-COMPATIBILITY
+Compatibility
+-------------
 
 This module has been tested with Magento Community Edition 1.6.0
 
 
-MORE INFORMATION
+More Information
+----------------
 
 This plugin is based on the JQuery plugin bei Heise.
 More information (German) can be found at
 http://www.heise.de/extras/socialshareprivacy/
 
 
-CHANGELOG
+Changelog
+---------
 
 15. Sep 2011 - 0.9.0 - Initial Version
 
 
-LICENSE
+License
+-------
 
 Copyright © 2011.
 netz98 new media GmbH. Alle Rechte vorbehalten.
@@ -62,6 +70,8 @@ The use and redistribution of this software, either compiled or uncompiled, with
 4. License holders of the netz98 new media GmbH are only permitted to redistribute altered software, if this is licensed under conditions that contain a copyleft-clause.
 This software is provided by the netz98 new media GmbH without any express or implied warranties. netz98 is under no condition liable for the functional capability of this software for a certain purpose or the general usability. netz98 is under no condition liable for any direct or indirect damages resulting from the use of the software. Liability and Claims for damages of any kind are excluded.
 
+Further Copyright
+-----------------
 
 Parts of this software are
 
