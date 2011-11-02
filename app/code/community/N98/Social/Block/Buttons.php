@@ -109,7 +109,7 @@ class N98_Social_Block_Buttons extends Mage_Core_Block_Template
             $config['services']['facebook'] = array(
                 'status' => 'on',
                 'app_id' => $this->getFacebookAppId(),
-                'dummy_img' => $this->getSkinUrl('images/' . $this->getFacebookImage()),
+                'dummy_img' => $this->getSkinUrl('images/social/' . $this->getFacebookImage()),
                 'language' => $this->getLocale(),
                 'txt_info' => $this->__("2 clicks to protect your privacy: Only when you click here, the button will be activated and you can send your recommendation to Facebook. When you activate the button, data will be send to Facebook. See also <em>i</em>."),
                 'txt_fb_off' => $this->__("not connected to Facebook"),
@@ -120,7 +120,7 @@ class N98_Social_Block_Buttons extends Mage_Core_Block_Template
         if (Mage::getStoreConfig('n98social/twitter/enabled')) {
             $config['services']['twitter'] = array(
                 'status' => 'on',
-                'dummy_img' => $this->getSkinUrl('images/dummy_twitter.png'),
+                'dummy_img' => $this->getSkinUrl('images/social/dummy_twitter.png'),
                 'txt_info' => $this->__("2 clicks to protect your privacy: Only when you click here, the button will be activated and you can send your recommendation to Twitter. When you activate the button, data will be send to Twitter. See also <em>i</em>."),
                 'txt_twitter_off' => $this->__("not connected to Twitter"),
                 'txt_twitter_on' => $this->__("connected to Twitter"),
@@ -130,7 +130,7 @@ class N98_Social_Block_Buttons extends Mage_Core_Block_Template
         if (Mage::getStoreConfig('n98social/gplus/enabled')) {
             $config['services']['gplus'] = array(
                 'status' => 'on',
-                'dummy_img' => $this->getSkinUrl('images/dummy_gplus.png'),
+                'dummy_img' => $this->getSkinUrl('images/social/dummy_gplus.png'),
                 'language' => $this->getLanguage(),
                 'txt_info' => $this->__("2 clicks to protect your privacy: Only when you click here, the button will be activated and you can send your recommendation to Google+. When you activate the button, data will be send to Google. See also <em>i</em>."),
                 'txt_gplus_off' => $this->__("not connected to Google"),

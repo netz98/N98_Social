@@ -9,6 +9,7 @@
         <reference name="product.info">
             <block type="n98social/buttons" name="n98social_buttons" template="n98/social/buttons.phtml" before="description">
                 <action method="addToParentGroup"><group>detailed_info</group></action>
+                <action method="setTitle" translate="value"><value>Social Networks</value></action>
             </block>
         </reference>
     </catalog_product_view>
