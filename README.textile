@@ -1,0 +1,37 @@
+h1. N98_Social Magento Module
+
+Adds a social media sharing button on product pages that conforms to German data 
+privacy laws using the Social Share Privacy plugin by Heise.
+It supports Twitter, Facebook and Google+.
+
+h2. Functionality
+
+After installation, a new section is added on the product detail page. It provides
+a small switch to enable the social media plugins. After this, the sharing
+functionality can be used as usual.
+
+h2. Installation
+
+Copy all the files in your Magento root folder or use "modman":https://github.com/colinmollenhour/modman for installation.
+After installation, clear your Magento cache.
+
+h2. Configuration
+
+The module can be configured in the backend at @System -> Configuration -> N98 -> Social@.
+
+
+h2. Compatibility
+
+The module was successfully tested in the following Magento versions:
+
+* CE 1.4
+* CE 1.6.0
+* CE 1.6.2
+* EE 1.11
+
+h2. Links
+
+This plugin is based on the JQuery plugin by Heise.
+More information (German) can be found at
+http://www.heise.de/extras/socialshareprivacy/
+
