@@ -33,5 +33,5 @@ h2. Links
 
 This plugin is based on the JQuery plugin by Heise.
 More information (German) can be found at
-http://www.heise.de/extras/socialshareprivacy/
+"Homepage of the SocialSharePrivacy plugin":http://www.heise.de/extras/socialshareprivacy/
 
