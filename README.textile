@@ -12,6 +12,8 @@ functionality can be used as usual.
 
 h2. Installation
 
+First you have to install the module "N98_BaseJQuery":https://github.com/netz98/N98_BaseJQuery.
+
 Copy all the files in your Magento root folder or use "modman":https://github.com/colinmollenhour/modman for installation.
 After installation, clear your Magento cache.
 
