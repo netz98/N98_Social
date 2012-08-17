@@ -1,8 +1,8 @@
-app/etc/modules/*                                           app/etc/modules/
-app/code/community/N98/Social                               app/code/community/N98/Social
-app/design/frontend/base/default/layout/n98/social.xml      app/design/frontend/base/default/layout/n98/social.xml
-app/design/frontend/base/default/template/n98/social        app/design/frontend/base/default/template/n98/social
-app/locale/de_DE/N98_Social.csv                             app/locale/de_DE/N98_Social.csv
-js/n98/jquery/*                                             js/n98/jquery/
-skin/frontend/base/default/css/socialshareprivacy.css       skin/frontend/base/default/css/socialshareprivacy.css
-skin/frontend/base/default/images/social                    skin/frontend/base/default/images/social
+src/app/etc/modules/*                                           app/etc/modules/
+src/app/code/community/N98/Social                               app/code/community/N98/Social
+src/app/design/frontend/base/default/layout/n98/social.xml      app/design/frontend/base/default/layout/n98/social.xml
+src/app/design/frontend/base/default/template/n98/social        app/design/frontend/base/default/template/n98/social
+src/app/locale/de_DE/N98_Social.csv                             app/locale/de_DE/N98_Social.csv
+src/js/n98/jquery/*                                             js/n98/jquery/
+src/skin/frontend/base/default/css/socialshareprivacy.css       skin/frontend/base/default/css/socialshareprivacy.css
+src/skin/frontend/base/default/images/social                    skin/frontend/base/default/images/social
